@@ -1,0 +1,425 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		720381A424280119006566C8 /* HomeControllerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 720381A324280119006566C8 /* HomeControllerViewController.swift */; };
+		723B7C4D24263A1700F66C1F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 723B7C4C24263A1700F66C1F /* AppDelegate.swift */; };
+		723B7C4F24263A1700F66C1F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 723B7C4E24263A1700F66C1F /* SceneDelegate.swift */; };
+		723B7C5124263A1700F66C1F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 723B7C5024263A1700F66C1F /* ContentView.swift */; };
+		723B7C5324263A1700F66C1F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 723B7C5224263A1700F66C1F /* Assets.xcassets */; };
+		723B7C5624263A1700F66C1F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 723B7C5524263A1700F66C1F /* Preview Assets.xcassets */; };
+		723B7C5924263A1700F66C1F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 723B7C5724263A1700F66C1F /* LaunchScreen.storyboard */; };
+		723B7C6124263A2300F66C1F /* MainCollectionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 723B7C6024263A2300F66C1F /* MainCollectionController.swift */; };
+		78F3EDF227E44E6FF90A677A /* Pods_PlanetaClone.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC742BF7C9D5D7BE2583C0DA /* Pods_PlanetaClone.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3800D689DC11EC5F3F054D12 /* Pods-PlanetaClone.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlanetaClone.debug.xcconfig"; path = "Target Support Files/Pods-PlanetaClone/Pods-PlanetaClone.debug.xcconfig"; sourceTree = "<group>"; };
+		5090C5084DA3447DC88151F4 /* Pods-PlanetaClone.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlanetaClone.release.xcconfig"; path = "Target Support Files/Pods-PlanetaClone/Pods-PlanetaClone.release.xcconfig"; sourceTree = "<group>"; };
+		720381A324280119006566C8 /* HomeControllerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeControllerViewController.swift; sourceTree = "<group>"; };
+		723B7C4924263A1700F66C1F /* PlanetaClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlanetaClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		723B7C4C24263A1700F66C1F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		723B7C4E24263A1700F66C1F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		723B7C5024263A1700F66C1F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		723B7C5224263A1700F66C1F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		723B7C5524263A1700F66C1F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		723B7C5824263A1700F66C1F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		723B7C5A24263A1700F66C1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		723B7C6024263A2300F66C1F /* MainCollectionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCollectionController.swift; sourceTree = "<group>"; };
+		AC742BF7C9D5D7BE2583C0DA /* Pods_PlanetaClone.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PlanetaClone.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		723B7C4624263A1700F66C1F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78F3EDF227E44E6FF90A677A /* Pods_PlanetaClone.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		44AFB06293F2B47D6913E4DE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AC742BF7C9D5D7BE2583C0DA /* Pods_PlanetaClone.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		723B7C4024263A1700F66C1F = {
+			isa = PBXGroup;
+			children = (
+				723B7C4B24263A1700F66C1F /* PlanetaClone */,
+				723B7C4A24263A1700F66C1F /* Products */,
+				F69D105174420014FC0CF003 /* Pods */,
+				44AFB06293F2B47D6913E4DE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		723B7C4A24263A1700F66C1F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				723B7C4924263A1700F66C1F /* PlanetaClone.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		723B7C4B24263A1700F66C1F /* PlanetaClone */ = {
+			isa = PBXGroup;
+			children = (
+				723B7C4C24263A1700F66C1F /* AppDelegate.swift */,
+				723B7C4E24263A1700F66C1F /* SceneDelegate.swift */,
+				723B7C5024263A1700F66C1F /* ContentView.swift */,
+				723B7C5224263A1700F66C1F /* Assets.xcassets */,
+				723B7C5724263A1700F66C1F /* LaunchScreen.storyboard */,
+				723B7C5A24263A1700F66C1F /* Info.plist */,
+				723B7C5424263A1700F66C1F /* Preview Content */,
+				723B7C6024263A2300F66C1F /* MainCollectionController.swift */,
+				720381A324280119006566C8 /* HomeControllerViewController.swift */,
+			);
+			path = PlanetaClone;
+			sourceTree = "<group>";
+		};
+		723B7C5424263A1700F66C1F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				723B7C5524263A1700F66C1F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F69D105174420014FC0CF003 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3800D689DC11EC5F3F054D12 /* Pods-PlanetaClone.debug.xcconfig */,
+				5090C5084DA3447DC88151F4 /* Pods-PlanetaClone.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		723B7C4824263A1700F66C1F /* PlanetaClone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 723B7C5D24263A1700F66C1F /* Build configuration list for PBXNativeTarget "PlanetaClone" */;
+			buildPhases = (
+				CB910D8EE1B588DA3B50A2C5 /* [CP] Check Pods Manifest.lock */,
+				723B7C4524263A1700F66C1F /* Sources */,
+				723B7C4624263A1700F66C1F /* Frameworks */,
+				723B7C4724263A1700F66C1F /* Resources */,
+				EB1459A062E69B7F6B9C4D10 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PlanetaClone;
+			productName = PlanetaClone;
+			productReference = 723B7C4924263A1700F66C1F /* PlanetaClone.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		723B7C4124263A1700F66C1F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = "Ivan Liutko";
+				TargetAttributes = {
+					723B7C4824263A1700F66C1F = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 723B7C4424263A1700F66C1F /* Build configuration list for PBXProject "PlanetaClone" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 723B7C4024263A1700F66C1F;
+			productRefGroup = 723B7C4A24263A1700F66C1F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				723B7C4824263A1700F66C1F /* PlanetaClone */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		723B7C4724263A1700F66C1F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				723B7C5924263A1700F66C1F /* LaunchScreen.storyboard in Resources */,
+				723B7C5624263A1700F66C1F /* Preview Assets.xcassets in Resources */,
+				723B7C5324263A1700F66C1F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		CB910D8EE1B588DA3B50A2C5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PlanetaClone-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EB1459A062E69B7F6B9C4D10 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PlanetaClone/Pods-PlanetaClone-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PlanetaClone/Pods-PlanetaClone-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PlanetaClone/Pods-PlanetaClone-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		723B7C4524263A1700F66C1F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				723B7C4D24263A1700F66C1F /* AppDelegate.swift in Sources */,
+				720381A424280119006566C8 /* HomeControllerViewController.swift in Sources */,
+				723B7C4F24263A1700F66C1F /* SceneDelegate.swift in Sources */,
+				723B7C6124263A2300F66C1F /* MainCollectionController.swift in Sources */,
+				723B7C5124263A1700F66C1F /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		723B7C5724263A1700F66C1F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				723B7C5824263A1700F66C1F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		723B7C5B24263A1700F66C1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		723B7C5C24263A1700F66C1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		723B7C5E24263A1700F66C1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3800D689DC11EC5F3F054D12 /* Pods-PlanetaClone.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"PlanetaClone/Preview Content\"";
+				DEVELOPMENT_TEAM = CG72P84AQK;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = PlanetaClone/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = wdwdwdw.PlanetaClone;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		723B7C5F24263A1700F66C1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5090C5084DA3447DC88151F4 /* Pods-PlanetaClone.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"PlanetaClone/Preview Content\"";
+				DEVELOPMENT_TEAM = CG72P84AQK;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = PlanetaClone/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = wdwdwdw.PlanetaClone;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		723B7C4424263A1700F66C1F /* Build configuration list for PBXProject "PlanetaClone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				723B7C5B24263A1700F66C1F /* Debug */,
+				723B7C5C24263A1700F66C1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		723B7C5D24263A1700F66C1F /* Build configuration list for PBXNativeTarget "PlanetaClone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				723B7C5E24263A1700F66C1F /* Debug */,
+				723B7C5F24263A1700F66C1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 723B7C4124263A1700F66C1F /* Project object */;
+}
