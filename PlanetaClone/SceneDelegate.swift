@@ -35,7 +35,8 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 //
 //            layout.scrollDirection = .horizontal
 //            window.rootViewController = MainCollectionController(collectionViewLayout: layout)
-            window.rootViewController = HomeControllerViewController()
+           
+            window.rootViewController =  UINavigationController(rootViewController: HomeControllerViewController())
             self.window = window
             window.makeKeyAndVisible()
         }

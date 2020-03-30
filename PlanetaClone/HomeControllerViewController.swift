@@ -22,24 +22,36 @@ class HomeControllerViewController: UIViewController {
     @objc func handleRightButtonPress() {
        
     }
-    
-    let leftButton: UIButton = {
-        let button = UIButton()
-        button.setImage(UIImage(named: "menu"), for: .normal)
-//        button.setTitle("BlockBuster", for: .normal)
-        
-        button.setTitleColor(.lightGray, for: .highlighted)
-        button.addTarget(self, action: #selector(handleLeftButtonPress), for: .touchUpInside)
-        return button
-    }()
+
     
     @objc func handleLeftButtonPress() {
+        //
+        let transition:CATransition = CATransition()
+        transition.duration = 0.3
+        transition.timingFunction = CAMediaTimingFunction(name: CAMediaTimingFunctionName.easeInEaseOut)
+        transition.type = CATransitionType.push
+        transition.subtype = CATransitionSubtype.fromLeft
+        navigationController!.view.layer.add(transition, forKey: kCATransition)
+        
        
+        let controllerToPresent = DrawerViewController()
+//        controllerToPresent.view.layer.add(transition, forKey: kCATransition)
+//        controllerToPresent.modalPresentationStyle = UIModalPresentationStyle.popover
+//        show(controllerToPresent, sender: nil)
+        
+         navigationController?.pushViewController(controllerToPresent, animated: true)
+       
+    }
+    
+    func setupNavigationBar() {
+        navigationItem.leftBarButtonItem = UIBarButtonItem(image: UIImage(systemName: "line.horizontal.3")?.withRenderingMode(.alwaysOriginal), style: .plain, target: self, action: #selector(handleLeftButtonPress))
     }
 
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = .blue
+        
+         setupNavigationBar()
         
         // add subviews
         view.addSubview(rightButton)
@@ -47,13 +59,6 @@ class HomeControllerViewController: UIViewController {
         rightButton.topAnchor.constraint(equalTo: view.layoutMarginsGuide.topAnchor).isActive = true
         rightButton.rightAnchor.constraint(equalTo: view.layoutMarginsGuide.rightAnchor).isActive = true
         
-        
-        view.addSubview(leftButton)
-        leftButton.translatesAutoresizingMaskIntoConstraints = false
-        leftButton.topAnchor.constraint(equalTo: view.layoutMarginsGuide.topAnchor).isActive = true
-        leftButton.leftAnchor.constraint(equalTo: view.layoutMarginsGuide.leftAnchor).isActive = true
-        leftButton.widthAnchor.constraint(equalToConstant: 25).isActive = true
-        leftButton.heightAnchor.constraint(equalToConstant: 25).isActive = true
         
         // Do any additional setup after loading the view.
         // add child view controller

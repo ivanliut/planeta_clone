@@ -15,6 +15,7 @@
 		723B7C5624263A1700F66C1F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 723B7C5524263A1700F66C1F /* Preview Assets.xcassets */; };
 		723B7C5924263A1700F66C1F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 723B7C5724263A1700F66C1F /* LaunchScreen.storyboard */; };
 		723B7C6124263A2300F66C1F /* MainCollectionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 723B7C6024263A2300F66C1F /* MainCollectionController.swift */; };
+		727BAA5B242BF9F8001E2C2D /* DrawerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 727BAA5A242BF9F8001E2C2D /* DrawerViewController.swift */; };
 		78F3EDF227E44E6FF90A677A /* Pods_PlanetaClone.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC742BF7C9D5D7BE2583C0DA /* Pods_PlanetaClone.framework */; };
 /* End PBXBuildFile section */
 
@@ -31,6 +32,7 @@
 		723B7C5824263A1700F66C1F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		723B7C5A24263A1700F66C1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		723B7C6024263A2300F66C1F /* MainCollectionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCollectionController.swift; sourceTree = "<group>"; };
+		727BAA5A242BF9F8001E2C2D /* DrawerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawerViewController.swift; sourceTree = "<group>"; };
 		AC742BF7C9D5D7BE2583C0DA /* Pods_PlanetaClone.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PlanetaClone.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -84,6 +86,7 @@
 				723B7C5424263A1700F66C1F /* Preview Content */,
 				723B7C6024263A2300F66C1F /* MainCollectionController.swift */,
 				720381A324280119006566C8 /* HomeControllerViewController.swift */,
+				727BAA5A242BF9F8001E2C2D /* DrawerViewController.swift */,
 			);
 			path = PlanetaClone;
 			sourceTree = "<group>";
@@ -225,6 +228,7 @@
 				723B7C4F24263A1700F66C1F /* SceneDelegate.swift in Sources */,
 				723B7C6124263A2300F66C1F /* MainCollectionController.swift in Sources */,
 				723B7C5124263A1700F66C1F /* ContentView.swift in Sources */,
+				727BAA5B242BF9F8001E2C2D /* DrawerViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
